@@ -1,0 +1,13 @@
+[project]
+name = "k8s-ai-triage"
+version = "0.1.0"
+description = "K8s Cluster AI Triage Control Center — Streamlit + Anthropic demo"
+requires-python = ">=3.10"
+dependencies = [
+    "streamlit>=1.36.0",
+    "anthropic>=0.34.0",
+    "python-dotenv>=1.0.0",
+]
+
+# After adding this file, run `uv sync` (or `uv add <pkg>` to add more deps)
+# to generate uv.lock and install everything into .venv.

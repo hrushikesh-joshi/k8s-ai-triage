@@ -1,0 +1,17 @@
+# Secrets — never commit real credentials
+.env
+
+# Python / uv environment
+.venv/
+__pycache__/
+*.pyc
+
+# uv lockfile is fine to commit for reproducibility; uncomment to ignore instead
+# uv.lock
+
+# Streamlit
+.streamlit/secrets.toml
+
+# OS/editor cruft
+.DS_Store
+.vscode/*.log
